@@ -16,6 +16,11 @@
 //javascript files
 //linked HTML files in the same domain
 
+//bookmarklet for invoking ManifestR
+// change the URL to point to your version and add this as a bookmark in your favourite browser
+
+//javascript:function%20loadScript(scriptURL)%20{%20var%20scriptElem%20=%20document.createElement('SCRIPT');%20scriptElem.setAttribute('language',%20'JavaScript');%20scriptElem.setAttribute('src',%20scriptURL);%20document.body.appendChild(scriptElem);}loadScript('http://westciv.com/tools/manifestR/manifestR.js');
+
 var manifestR={
 		
 	makeManifest: function(options){
