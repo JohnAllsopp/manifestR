@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>manifestR - offline web apps made easy (well easier)</title>
+
+<link rel="stylesheet" type="text/css" href="editorstyle1.css"  />	
+<link rel="stylesheet" type="text/css" href="navbar.css"  />	
+<link rel="stylesheet" type="text/css" media="screen, projection" href="slider/slider.css" />
+
+<script type="text/javascript" src="lineargradients-new-style.js"></script>
+<script type="text/javascript" src="jscolor/jscolor.js"></script>
+<script type="text/javascript" src="slider/slider.js"></script>
+
+</head>
+<body>
+<div id="header">
+<ul>
+	<li><a href="http://westciv.com">Style Master</a></li>
+	<li><a href="../index.html">Tools</a></li>
+	<li><a href="../gradients/index.html">Linear Gradients</a></li>
+	<li><a href="../radialgradients/index.html">Radial Gradients</a></li>
+	<li><a href="../text-properties/index.html">Text Properties</a></li>
+	<li><a href="../box-properties/index.html">Box Properties</a></li>
+	<li><a href="../transforms/index.html">Transforms</a></li>
+	<li><a href="../information/index.html">CSS3 Details</a></li>
+
+</ul>
+</div>
+
+<div id="wrapper">
+
+<h2>manifestR: get your sites offline</h2>
+
+<p>HTML5 features appcaching, a way to make your web sites and apps work offline, and to increase their performance as well.</p>
+
+<p>To learn more about the HTML5 appcache, <a href="http://www.webdirections.org/blog/get-offline/">read our comprehesive overview</a> to get you started.</p>
+
+<h3>So what does manifestR do?</h3>
+
+<p>manifestR is a bookmarklet, which you drag to your bookmarks bar. Then, when you visit any page, you can click the manifestR button, and it will create an HTML5 appcache manifest file for that page. For more on how you then use the manifest <a href="http://www.webdirections.org/blog/get-offline">see our article</a>.</p>
+
+<h3>How do I use it?</h3>
+
+<ul>
+	<li>Step 1: drag <a href="javascript:function loadScript(scriptURL) { var scriptElem = document.createElement('SCRIPT'); scriptElem.setAttribute('language', 'JavaScript'); scriptElem.setAttribute('src', scriptURL); document.body.appendChild(scriptElem);}loadScript('http://westciv.com/tools/manifestR/manifestR.js');">manifestR</a> (that's the link just to the left of this) to the bookmarks bar in your browser</li>
+	<li>Step 2: visit any web page you want to create an HTML5 appcache manifest for</li>
+	<li>Step 3: click the manifestR button in your bookmarks bar</li>
+	<li>Step 4: copy the manifest it creates</li>
+	<li>Step 5: <a href="http://www.webdirections.org/blog/get-offline">read on</a> for how to work with appcache to take your web sites and apps offline</li>
+</ul>
+
+<h3>What does manifestR do?</h3>
+
+<p>For details on what manifestR adds to the manifest file, <a href="http://www.webdirections.org/blog/get-offline#manifestR">see our article</a>. It's recommended you understand how an apcache manifest works before puttng it into production use, as there are some subtleties.</p>
+
+<h3>What's next?</h3>
+
+<ul>
+	<li>Follow me on <a href="http://twitter.com/johnallsopp">twitter</a> to keep up to date with manifestR developments</li>
+	<li>explore the other <a href="../index.html">tools</a> we have here to help you better work with HTML5 and CSS3</li>
+	<li>Take a look at the <a href="http://webdirections.org">conferences we run</a> for web developers like you, including <a href="http://south11.webdirections.org/">Web Directions South</a> in Sydney in October each year.</li>
+</ul>
+
+</div> <!-- wrapper-->
+<div id="footer">
+
+<ul>
+	<li id="twitter"><a href="http://twitter.com/johnallsopp">follow me</a></li>
+	<li id="devWWS"><a href="http://www.amazon.com/Developing-Web-Standards-John-Allsopp/dp/0321646924/ref=sr_1_1?ie=UTF8&amp;s=books&amp;qid=1257824843&amp;sr=8-1">My Book</a></li>
+	<li id="CSS3Live"><a href="https://learnable.com/courses/learn-css3-203">My Courses</a></li>
+	<li id="webdirections"><a href="http://webdirections.org">Conferences</a></li>
+
+<!--	<li id="plusOne"><g:plusone size="medium"></g:plusone></li> -->
+
+</ul>
+
+</div> <!-- footer -->
+</body>
+</html>
